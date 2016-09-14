@@ -1,0 +1,61 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>大图滚动</title>
+	<link rel="stylesheet" href="css/reset.css">
+	<style>
+		.warp {
+			overflow: hidden;
+			width: 500px;
+			height: 500px;
+			margin: 50px auto 0;
+			border: 1px solid #00bde5;
+		}
+        .con {
+            width: 2500px;
+            height: 500px;
+        }
+        .con img {
+            float: left;
+            display: block;
+            width: 500px;
+            height: 500px;
+        }
+        .btn {
+            margin: 30px auto;
+            width: 500px;
+            height: 150px;
+            border: 1px solid #f6b81d;
+        }
+        .btn p {
+            float: left;
+            width: 250px;
+            height: 25px;
+            line-height: 25px;
+            border: 1px solid #ffffff;
+            background-color: #cd8a3a;
+            cursor: pointer;
+        }
+	</style>
+</head>
+<body>
+<div class="warp" id="outer">
+    <div class="con" id="inner">
+        <img src="./images/bug.jpg" alt="">
+        <img src="./images/chan.jpg" alt="">
+        <img src="./images/reng.jpg" alt="">
+        <img src="./images/weak.jpg" alt="">
+        <img src="./images/angein.jpg" alt="">
+    </div>
+</div>
+<div class="btn" id="btn">
+    <p>因为BUG，所以我们在相爱</p>
+    <p>因为BUG，所以我们在相爱</p>
+    <p>因为BUG，所以我们在相爱</p>
+    <p>因为BUG，所以我们在相爱</p>
+    <p>因为BUG，所以我们在相爱</p>
+</div>
+<script type="text/javascript" src="./js/style.js"></script>
+</body>
+</html>
